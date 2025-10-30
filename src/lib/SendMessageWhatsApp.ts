@@ -32,7 +32,7 @@ class SendMessageWhatsApp implements ISendMessageWhatsApp{
                console.log(`⚡⚡⚡ Enviando mensajes....`);
           }
           catch (e) {
-               console.log(`⚡⚡⚡ Error....`);
+               console.log(`⚡⚡⚡ Error enviando mensaje:`, e);
           }
      }
 }
